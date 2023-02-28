@@ -1,33 +1,59 @@
-# Studio Ghibli
+Documenta brevemente tu trabajo en el archivo README.md de tu repositorio, contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve el problema (o problemas) que tiene tu usuario.
 
-Studio Ghibli es un estudio de animación japonés, conocido por sus largometrajes
-animados como **Mi vecino Totoro**, **El viaje de Chihiro** o
-**El castillo ambulante**, entre otros grandes éxitos.
+recopilar mi proceso
 
-Las animaciones tienen gran acogida a nivel mundial y algunas han recibido
-varias nominaciones y premios. De todo este fandom hay un grupo que desea poder
-interactuar y ver la información de las animaciones y sus personajes.
+Primeros pasos
 
-## Hallazgos
+Antes de empezar a escribir código, debes definir qué deberá hacer el producto en base al conocimiento que puedas obtener de tu usuario. Estas preguntas te pueden ayudar:
 
-Para entender mejor qué información podrían necesitar nuestras usuarias,
-hicimos una rápida investigación (research) y estos son algunos de los
-hallazgos.
+¿Quiénes son los principales usuarios de producto?
 
-- Studio Ghibli tiene varias animaciones, para nuestras usuarias es importante
-  saber cuántas y cuáles son.
-- Las animaciones tienen directorxs y productorxs. Estxs son las mentes detrás
-  de una gran animación. En Studio Ghibli hay directorxs y productorxs que han
-  colaborado en la creación de más de una animación. Por ello, es importante
-  para nuestra usuaria poder conocerlos y saber cuántas y cuáles son las
-  animaciones a las que dieron "vida".
-- Las animaciones tienen información relevante para nuestras usuarias, como
-  descripción, fecha de lanzamiento, peso, director, productor y personajes.
-- Cada animación tiene sus personajes, para nuestras usuarias es importante
-  saber cuántos y cuáles son
-- Los personajes tienen características únicas que la usuaria quiere saber, como
-  nombre, edad, género, especie, etc.
-- Las animaciones tienen locaciones y vehículos únicos en cada una. Para
-  nuestras usuarias es importante saber cuáles son.
-- Adicionalmente a esta información, para nuestras usuarias es importante poder
-  ver los tipos de especies que hay en cada animación.
+-personas que por curiosidad quieren conocer las películas.
+
+-fans de las películas que quieren saber y ver en algún orden la ubicacion de las portadas de las peliculas.
+
+-fans que necesitan buscar(filtrar) informacion con alguna categoria las  caracteristicas en particular sobre cada pelicula o alguna en particular.
+
+-fans que quieren comparar caracteristicas de las peliculas  (promedio)
+
+
+
+¿Cuáles son los objetivos de estos usuarios en relación con el producto?
+
+descubrir, conocer, divertirse, comparar, informar, investigar.
+
+¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
+
+-fecha de lanzamiento. saber el año que se creo.
+
+-orden de la a la z??
+
+-personajes conocer sus nombres y caracteristicas( como nombre, edad, género)
+
+-directores (quienes dieron vida a estas historias)
+
+-especies( tipos de especies??su mitologia) naves y mas.
+
+fecha de lanzamiento,
+
+comparaciones :
+
+basadas en libros, bandas sonoras,  clasificados  por edad (restriccion).a que publico va dirigido.
+
+cuales son las locaciones reales vs no y vehículos únicos en cada una.
+
+.
+
+¿Cuándo utilizan o utilizarían el producto?
+
+-cuando busquen información sobre el studio,
+
+-cuando quieran conocer las películas
+
+-cuando busqué información  por una película en particular .
+
+-cuando quieran saber el nombre de personajes de la película de su gusto.
+
+
+
+toda tu investigación previa debe tener como resultado todas las Historias de Usuario de tu proyecto.
