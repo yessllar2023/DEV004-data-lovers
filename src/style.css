@@ -1,12 +1,99 @@
+
 header {
-
+ padding:50px ;
+  background-color: rgb(80, 148, 150);
+  width: 92%;
 }
+
+h1{
+ text-align: center;
+ font-size: 70px;
+ color: white;
+ font-family: lora, serif;
+font-style: italic;
+}
+h2{
+ text-align:right;
+ font-size: 20px;
+ color: white;
+ font-family:  Calibri, 'Trebuchet MS', sans-serif;
+}
+
 body {
+ background-color: rgb(206, 215, 233);
+ width: 98%;
+}
 
+.flex-container{  
+ display: grid;
+ text-align: center;
+ border: solid 7px rgb(240, 246, 251);
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;        
+ grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+ grid-template-rows: 5fr;
+ gap: 40px 2px; 
+ grid-auto-flow: dense;
+ padding-block: 45px 40px; 
+ padding-inline: 30px 30px;
+ color: rgb(112, 109, 99);
+ border-radius: 5px;
+ font-size: max(0.4vw, 0.3em, 1rem);
 }
-.flex-container{
-    display: inline-flex;
-}
-.cards{
-   
-}
+
+.flex-container img{
+ border-radius:  5px;
+ box-shadow: 5px 6px 11px 0px rgb(44, 64, 115);
+ text-align: center;
+ min-block-size: 300px;
+ max-inline-size: 200px;
+ }
+ .flex-container h3{
+  text-align: center;
+  font-size: 17px;
+ }
+
+ @media (max-width: 430px){
+   header{
+   width: 73%;
+   padding:50px ;
+   background-color: rgb(124, 171, 197);
+  }
+  h1{
+   text-align: center;
+   font-size: 32px;
+   color:white;
+   font-family: lora, serif;
+  font-style: italic;
+  padding-block: 10px 10px;
+  padding-inline: 8px 0px;
+  }
+  h2{
+   text-align:center;
+   font-size: 12px;
+   color: white;
+   font-family:  Calibri, 'Trebuchet MS', sans-serif;
+  }
+  body {
+   width: 95%;
+  }
+  .flex-container{  
+   display: grid;  
+   grid-template-columns: repeat(2, minmax(50px, 1fr));
+   grid-template-rows: 11fr;
+   gap: 50px 3px; 
+   grid-auto-flow: dense;
+  }
+  .flex-container img{
+   border-radius:  5px;
+   box-shadow: 5px 6px 11px 0px rgb(44, 64, 115);
+   text-align: center;
+   min-block-size: 150px;
+   max-block-size: 160px;
+   min-inline-size: 110px;
+   max-inline-size: 120px;
+   }
+   .flex-container h3{
+    text-align: center;
+    font-size: 10.1px;
+   }
+ }
