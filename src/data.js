@@ -1,10 +1,9 @@
-// estas funciones son de ejemplo
 export function mostrarTarjetas(array){
   const main = document.getElementById('root')
   main.innerHTML = ''
 
   for(let i=0; i< array.length; i++ ){
-      console.log(array[i]);
+      //console.log(array[i]);
       //template string y/o interpolacion de variables
       main.innerHTML += `<article>
       <h3>${array[i].title}</h3>
@@ -12,7 +11,19 @@ export function mostrarTarjetas(array){
     </article>`
   }
 }
-//export va al final
+
+export const ordenar = (arreglo)=> {
+return arreglo.sort((a,b) => {
+  if (a.title == b.title) {
+    return 0;
+  }
+  if (a.title < b.title) {
+    return -1;
+  }
+  return 1;
+});
+}
+
 export const example = () => {
   return 'example';
 };
