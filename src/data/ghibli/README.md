@@ -51,9 +51,7 @@ DEFINICIÓN DE TERMINADO
 
   se crean prototipo de baja fidelidad para móvil y ordenador
   ![imagen](https://github.com/yessllar2023/DEV004-data-lovers/assets/122325473/f5393a18-6cf2-43d2-bdd4-539e186d96fb)
-  https://github.com/yessllar2023/DEV004-data-lovers/blob/main/src/imagenes/prototipo%20de%20baja%20movil%20H.U.1.bmp
-  https://github.com/yessllar2023/DEV004-data-lovers/blob/main/src/imagenes/prototipo%20de%20baja%20ordenador%20H.U.1.bmp
-  
+
 H.U 2 para ordenar las peliculas
 TARJETA
 YO COMO fans de studio ghibli.
@@ -89,14 +87,9 @@ DEFINICIÓN DE TERMINADO
 -pasar test unitario al 70%
 
 prototipos de alta:
-
-https://github.com/yessllar2023/DEV004-data-lovers/blob/main/src/imagenes/prototipo%20de%20alta%20figma%20para%20ordenador%20H.U2%20ordenar.png
-https://github.com/yessllar2023/DEV004-data-lovers/blob/main/src/imagenes/prototipo%20de%20alta%20figma%20para%20movil%20H.U.2%20ordenar.png
-https://github.com/yessllar2023/DEV004-data-lovers/blob/main/src/imagenes/modificacion%20movil%20parte1%20hu2.png
-https://github.com/yessllar2023/DEV004-data-lovers/blob/main/src/imagenes/modificacion%20movil%202parte-paf-hu2.png
-https://github.com/yessllar2023/DEV004-data-lovers/blob/main/src/imagenes/modificacion%20movil%20%20paf-hu2-ordenar.png
-https://github.com/yessllar2023/DEV004-data-lovers/blob/main/src/imagenes/modificacion%202parte-paf-hu2-ordenador%2C%20ordenar.png
-https://github.com/yessllar2023/DEV004-data-lovers/blob/main/src/imagenes/modificacion%201ra%20parte-paf-hu2-ordenador%2C%20ordenar.png
+![version para ordenador](https://github.com/yessllar2023/DEV004-data-lovers/assets/122325473/5a9228ba-5195-4733-a3a5-11466c295f30)
+![version movil](https://github.com/yessllar2023/DEV004-data-lovers/assets/122325473/d7f303b7-046c-4b11-8510-2a1d8f76fb8b)
 
 
-Para concluir espero que te sea util este readmi y que la pagina sea de tu agrado, ya que se hizo con mucho cariño.
+Para concluir  se logro una data donde puedes ver, ordenar y filtrar las peliculas de studio ghibli.
+espero que te sea util este readmi y que la pagina sea de tu agrado, ya que se hizo con mucho cariño.
