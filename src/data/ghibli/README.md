@@ -1,31 +1,19 @@
-duda el readmi de mi proyecto debo crearlo en scr o archivo fuera de esa carpeta externo?
 
-veo por readmi que va dentro de src
-src:
-─ ghibli
-|  |  |  ├── ghibli.js
-|  |  |  ├── ghibli.json
-|  |  |  └── README.md
-
-Documenta brevemente tu trabajo en el archivo README.md de tu repositorio, contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve el problema (o problemas) que tiene tu usuario.
-
-recopilar mi proceso
-
-Primeros pasos
-
-Antes de empezar a escribir código, debes definir qué deberá hacer el producto en base al conocimiento que puedas obtener de tu usuario. Estas preguntas te pueden ayudar:
+     PROYECTO DATA LOVERS
+     STUDIO GHIBLI
+     
+HOLA este readmi contiene informacion del proyecto.
+La creacion de esta pagina nacio por el interes de entregar y compartir informacion sobre las peliculas del Studio Ghibli. 
+     
+Recopilando el proceso: se realizo una investigacion, se generaron preguntas y respuestas de usuarios.
+estas son algunas:
 
 ¿Quiénes son los principales usuarios de producto?
 
 -personas que por curiosidad quieren conocer las películas.
-
 -fans de las películas que quieren saber y ver en algún orden la ubicacion de las portadas de las peliculas.
-
 -fans que necesitan buscar(filtrar) informacion con alguna categoria las  caracteristicas en particular sobre cada pelicula o alguna en particular.
-
 -fans que quieren comparar caracteristicas de las peliculas  (promedio)
-
-
 
 ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
 
@@ -33,71 +21,82 @@ descubrir, conocer, divertirse, comparar, informar, investigar.
 
 ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
 
--fecha de lanzamiento. saber el año que se creo.
-
--orden de la a la z??
-
--personajes conocer sus nombres y caracteristicas( como nombre, edad, género)
-
+-portadas ordenadas de la a la z
 -directores (quienes dieron vida a estas historias)
-
--especies( tipos de especies??su mitologia) naves y mas.
-
-fecha de lanzamiento,
-
-comparaciones :
-
-basadas en libros, bandas sonoras,  clasificados  por edad (restriccion).a que publico va dirigido.
-
-cuales son las locaciones reales vs no y vehículos únicos en cada una.
-
 .
+¿Cuándo utilizan o utilizaríanla pag web?
 
-¿Cuándo utilizan o utilizarían el producto?
-
--cuando busquen información sobre el studio,
-
+-cuando busquen información sobre el studio
 -cuando quieran conocer las películas
-
 -cuando busqué información  por una película en particular .
 
--cuando quieran saber el nombre de personajes de la película de su gusto.
+Creacion y desarrollo de historias de usuarios:
 
+H.U. 1 para mostrar las peliculas
+TARJETA
+YO COMO aficionado al cine.
+QUIERO ver las portadas de las películas del Studio Ghibli
+PARA conocer todas las animaciones que han realizado.
 
+CRITERIOS DE ACEPTACIÓN
 
-toda tu investigación previa debe tener como resultado todas las Historias de Usuario de tu proyecto.
+-el diseño es fiel al prototipo de baja fidelidad.
+-html y css visualizar todas las portadas en ordenador y móvil con sus títulos incluidos.
+-que sea responsivo.
 
+DEFINICIÓN DE TERMINADO 
 
+-tener prototipo de baja listo mas sus feedback y cambios si habran
+- codear en js: finiquitar buscar un codigo para MOSTRAR las peliculas de la data (maqueta: js, htm y css) LOS datos
 
+  se crean prototipo de baja fidelidad para móvil y ordenador
+  ![imagen](https://github.com/yessllar2023/DEV004-data-lovers/assets/122325473/f5393a18-6cf2-43d2-bdd4-539e186d96fb)
+  https://github.com/yessllar2023/DEV004-data-lovers/blob/main/src/imagenes/prototipo%20de%20baja%20movil%20H.U.1.bmp
+  https://github.com/yessllar2023/DEV004-data-lovers/blob/main/src/imagenes/prototipo%20de%20baja%20ordenador%20H.U.1.bmp
+  
+H.U 2 para ordenar las peliculas
+TARJETA
+YO COMO fans de studio ghibli.
+QUIERO ver las portadas de las películas en orden ascendente de A- Z.
+PARA ubicar y seleccionar el nombre de una película en particular .
 
-readme proyecto anterior
+criterios de aceptación
 
+-un boton para que el fans pueda solicitar ver las peliculas ordenadas
+-una respuesta de la pag que cumpla con el orden visual de un listado de A-Z ASCENDENTE de las portadas
 
+DEFINICIÓN DE TERMINADO
 
+-funcion que aplique interaccion por medio de un boton que despliegue el orden de a-z ascendente
+-peliculas ya ordenadas. en las posciciones de a-z al estilo de hu1
 
+H.U 3
+para filtrar las peliculas (segun una condicion)
 
-HOLA este readmi contiene informacion del proyecto card- validation. es la entrega final del:
+TARJETA
+YO COMO fans de las animaciones de studio ghibli.
+QUIERO poder buscar y seleccionar las películas por directores.
+PARA saber y ver quien se encargo de dirigir cada película.
+     
+criterios de aceptación
+-que tenga un boton de filtro de directores de studio ghibli
+-tener una respuesta con todos los directores en una lista desplegable para elegir
+-al elegir una opcion de director poder visualizar las portadas de las peliculas que ha realizado
 
-sitio web = "brotar, taller de artes visuales"
+DEFINICIÓN DE TERMINADO
 
-nombre = brotar
+- fiel al prototipo de alta
+-pasar test unitario al 70%
 
-¿Enfocado a ? personas que tengan interes o inquietud por las artes vissuales. ¿De que trata esta pagina? se quiere ofrecer un opcion para ingresar a clases de dibujo,explorando lo basico sin conocimientos previos concluyendo este taller, como una grata experiencia para avanzar en el futuro con nuevas propuestas en las artes visuales como base se solicita un minimo de edad para participar de 9 años y de ahi en adelante sin limites de edad.
+prototipos de alta:
 
-¿Que accion ejecuta este pagina web?
+https://github.com/yessllar2023/DEV004-data-lovers/blob/main/src/imagenes/prototipo%20de%20alta%20figma%20para%20ordenador%20H.U2%20ordenar.png
+https://github.com/yessllar2023/DEV004-data-lovers/blob/main/src/imagenes/prototipo%20de%20alta%20figma%20para%20movil%20H.U.2%20ordenar.png
+https://github.com/yessllar2023/DEV004-data-lovers/blob/main/src/imagenes/modificacion%20movil%20parte1%20hu2.png
+https://github.com/yessllar2023/DEV004-data-lovers/blob/main/src/imagenes/modificacion%20movil%202parte-paf-hu2.png
+https://github.com/yessllar2023/DEV004-data-lovers/blob/main/src/imagenes/modificacion%20movil%20%20paf-hu2-ordenar.png
+https://github.com/yessllar2023/DEV004-data-lovers/blob/main/src/imagenes/modificacion%202parte-paf-hu2-ordenador%2C%20ordenar.png
+https://github.com/yessllar2023/DEV004-data-lovers/blob/main/src/imagenes/modificacion%201ra%20parte-paf-hu2-ordenador%2C%20ordenar.png
 
-la validacion de una tarjeta de credito. el cliente ingresa de 13 a 16 numeos de su tarjeta de credito y al presionar el boton confirmar le informa si es una tarjeta valida o invalida. ademas avisa si el campo esta vacio(osea no permite validar) y si se ingresan letras.
-
-¿Que mejoras se le darian en un futuro? breve biografia del perfil de la profesora que imparta las clases. -luego del pago se accederia al curso por medio de una plataforma online. -informacion mas detallada del curso con preguntas y respuestas desplegables.
-
-Decisiones de diseño: principios y elementos de diseño basico creado el fondo en tonos pasteles para darle un ambiente calido. una estructura simple de las cajas para entregar tranquilidad. un todo: frescura, confianza y simplicidad. con: balance, contraste, espacio, color direccion y forma. ej -equilibrio en color con balance -contraste en objeto fondo forma -direccion espacio le daria fluidez -inclui e intente la ley de los 3 tercios #.
-
-El ¿Por qué?¿cómo? y ¿qué? 1 ¿por que? necesidad inquietud de personas que quieren aprender dibujo. 2 ¿como? al adquirir este servicio, puedes aprender aunque digas o sientas que no puedes o no sabes dibujar. 3 ¿que? un taller de dibujo basico en formato online para ñiños de 9 años en adelante hasta los 99.
-
-*Las imagenes estan ubicado en src carpeta imagenes:
-
-Prototipo de baja fidelidad imagenes/prototipo de baja fidelidad.jpg
-
-Prototipo de alta fidelidad imagenes/1er prototipo alta fidelidad.png
 
 Para concluir espero que te sea util este readmi y que la pagina sea de tu agrado, ya que se hizo con mucho cariño.
